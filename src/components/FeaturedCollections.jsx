@@ -7,19 +7,19 @@ const FeaturedCollections = () => {
       id: 1,
       title: "Eternal Radiance",
       description: "Timeless pieces that capture the essence of everlasting love.",
-      image: "/Public/collection1.webp",
+      image: "/collection1.webp",
     },
     {
       id: 2,
       title: "Modern Brilliance",
       description: "Contemporary designs for the bold and sophisticated.",
-      image: "/Public/collection2.webp",
+      image: "/collection2.webp",
     },
     {
       id: 3,
       title: "Royal Heritage",
       description: "Exquisite creations inspired by historical royal collections.",
-      image: "/Public/collection4.webp",
+      image: "/collection4.webp",
     }
   ];
 
