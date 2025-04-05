@@ -17,7 +17,7 @@ const AboutBrand = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-            <img src="/Public/ourstory.webp" alt="Jewelry craftsmanship" className="w-full h-auto shadow-lg" />
+            <img src="/ourstory.webp" alt="Jewelry craftsmanship" className="w-full h-auto shadow-lg" />
           </div>
           <div>
             <h2 className="text-3xl font-light text-gray-900 mb-6 tracking-wide">Our Story</h2>

@@ -22,7 +22,7 @@ const SignaturePiece = () => {
             </button>
           </div>
           <div>
-            <img src="/Public/card.webp" alt="Celestial Collection" className="w-full h-auto shadow-lg" />
+            <img src="/card.webp" alt="Celestial Collection" className="w-full h-auto shadow-lg" />
           </div>
         </div>
       </div>

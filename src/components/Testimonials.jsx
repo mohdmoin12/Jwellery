@@ -9,21 +9,21 @@ const Testimonials = () => {
       name: "Alexandra C.",
       position: "New York",
       quote: "The craftsmanship is beyond compare. My engagement ring draws compliments everywhere I go.",
-      image: "/Public/test1.webp",
+      image: "/test1.webp",
     },
     {
       id: 2,
       name: "Jonathan M.",
       position: "London",
       quote: "The attention to detail and personalized service made selecting an anniversary gift a joy.",
-      image: "/Public/test2.webp",
+      image: "/test2.webp",
     },
     {
       id: 3,
       name: "Sophia L.",
       position: "Paris",
       quote: "Each piece tells a story. I cherish my Lumière collection necklace for the memories it holds.",
-      image: "/Public/test3.webp",
+      image: "/test3.webp",
     }
   ];
 
