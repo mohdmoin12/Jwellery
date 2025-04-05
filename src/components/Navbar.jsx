@@ -12,11 +12,11 @@ const Navbar = () => {
             <div className="flex items-center">
               {/* Logo Image - Replace 'logo.png' with your actual logo path */}
               {/* <img 
-                src="/logo.jpg" 
+                src="/logo.png" 
                 alt="VIDHI JWELS Logo"
                 className="h-10 w-10 mr-2" // Adjust size as needed
               /> */}
-              <span className="text-2xl font-light tracking-wider text-gray-800">VIDHI JWELLS</span>
+              <span className="text-2xl font-light tracking-wider text-gray-800">VIDHI JWELS</span>
             </div>
           </div>
 

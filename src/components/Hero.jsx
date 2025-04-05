@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import JewelryConsultationForm from './JewelryConsultationForm'; // Import your form component
+import JewelryConsultationForm from './JewelryConsultationForm';
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -19,12 +19,19 @@ const Hero = () => {
 
   const openForm = () => {
     setShowForm(true);
-    document.body.style.overflow = 'hidden'; // Prevent scrolling when form is open
+    document.body.style.overflow = 'hidden';
   };
 
   const closeForm = () => {
     setShowForm(false);
-    document.body.style.overflow = 'auto'; // Re-enable scrolling
+    document.body.style.overflow = 'auto';
+  };
+
+  const scrollToCollections = () => {
+    const collectionsSection = document.getElementById('collections');
+    if (collectionsSection) {
+      collectionsSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -48,7 +55,10 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-light text-white mb-6 tracking-wide">Timeless Elegance, Eternal Brilliance</h1>
             <p className="text-xl md:text-2xl text-gray-100 mb-8 font-light">Exquisite diamond jewelry crafted for life's most precious moments</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="bg-white text-gray-900 px-8 py-3 text-lg hover:bg-gray-100 transition-colors duration-300">
+              <button 
+                onClick={scrollToCollections}
+                className="bg-white text-gray-900 px-8 py-3 text-lg hover:bg-gray-100 transition-colors duration-300"
+              >
                 Explore Collection
               </button>
               <button 

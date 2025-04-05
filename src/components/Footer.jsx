@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Info */}
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-light mb-6">LUMIÈRE</h3>
+            <h3 className="text-2xl font-light mb-6">VIDHI JWELLS</h3>
             <p className="text-gray-400 mb-6">
-              Crafting extraordinary diamond jewelry since 1896.
+              Crafting extraordinary diamond jewelry since 2017.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
@@ -57,7 +57,7 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>5th Avenue, Diamond District<br />New York, NY 10001</span>
+                <span>Mumbai , Bandra<br />India, IN 10001</span>
               </div>
               <div className="flex items-center">
                 <svg className="h-5 w-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -69,7 +69,7 @@ const Footer = () => {
                 <svg className="h-5 w-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:info@lumiere.com" className="hover:text-white transition-colors duration-300">info@lumiere.com</a>
+                <a href="mailto:info@lumiere.com" className="hover:text-white transition-colors duration-300">vidhijwells.com</a>
               </div>
             </address>
           </div>
@@ -100,7 +100,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} LUMIÈRE. All rights reserved.
+            &copy; {new Date().getFullYear()} VIDHI JWELLS. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">Privacy Policy</a>

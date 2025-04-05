@@ -8,7 +8,7 @@ import FeaturedCollections from './components/FeaturedCollections';
 // import CallToAction from './components/CallToAction';
 // import InstagramGallery from './components/InstagramGallery';
 // import Footer from './components/Footer';
-import AboutBrand from './AboutBrand';
+import AboutBrand from './components/AboutBrand';
 import SignaturePiece from './components/SignaturePiece';
 import Testimonials from './components/Testimonials';
 import CallToAction from './components/CallToAction';
