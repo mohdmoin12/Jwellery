@@ -16,7 +16,7 @@ const Navbar = () => {
                 alt="VIDHI JWELS Logo"
                 className="h-10 w-10 mr-2" // Adjust size as needed
               /> */}
-              <span className="text-2xl font-light tracking-wider text-gray-800">VIDHI JWELS</span>
+              <span className="text-2xl font-light tracking-wider text-gray-800">VIDHI JWELLS</span>
             </div>
           </div>
 
